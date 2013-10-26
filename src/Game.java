@@ -41,9 +41,8 @@ public class Game {
                 out.println(winner);
             }
 
-            out.println("Sores :");
+            out.println("Scores :");
             for (Player p : players) {
-
                 out.println(p.getName()+" : "+p.getScore());
             }
         }
