@@ -18,7 +18,6 @@ public class Round {
         for (Dice d : dices) {
             retval.add(d.getFaceVal());
         }
-
         return retval;
     }
 }
